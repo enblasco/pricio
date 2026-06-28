@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pricio — Política de privacidad</title>
+  <style>
+    :root {
+      --brand: #1F6FEB;
+      --brand-dark: #1456C9;
+      --neutral-900: #0E1726;
+      --neutral-700: #334155;
+      --neutral-500: #64748B;
+      --neutral-100: #F1F5F9;
+      --page: #F4F7FD;
+      --card: #FFFFFF;
+      --border: #E6EBF3;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--page);
+      color: var(--neutral-900);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 48px 24px 96px;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin-bottom: 32px;
+    }
+    .logo {
+      width: 44px;
+      height: 44px;
+      border-radius: 12px;
+      background: var(--brand);
+      display: grid;
+      place-items: center;
+      color: #fff;
+      font-weight: 700;
+      font-size: 20px;
+      letter-spacing: -0.5px;
+    }
+    .brand-name { font-size: 20px; font-weight: 700; letter-spacing: -0.4px; }
+    .updated { color: var(--neutral-500); font-size: 13px; margin-bottom: 32px; }
+    h1 {
+      font-size: 34px;
+      line-height: 1.15;
+      letter-spacing: -0.8px;
+      margin: 0 0 16px;
+    }
+    h2 {
+      font-size: 18px;
+      letter-spacing: -0.2px;
+      margin: 36px 0 8px;
+    }
+    p, ul { color: var(--neutral-700); font-size: 16px; margin: 8px 0; }
+    ul { padding-left: 22px; }
+    a { color: var(--brand); text-decoration: none; }
+    a:hover { color: var(--brand-dark); text-decoration: underline; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 28px 32px;
+      box-shadow: 0 1px 2px rgba(14,23,38,.04);
+    }
+    .lang-switch {
+      display: inline-flex;
+      gap: 4px;
+      background: var(--neutral-100);
+      padding: 4px;
+      border-radius: 999px;
+      margin-bottom: 24px;
+      font-size: 13px;
+    }
+    .lang-switch a {
+      padding: 6px 14px;
+      border-radius: 999px;
+      color: var(--neutral-700);
+      font-weight: 600;
+    }
+    .lang-switch a.active {
+      background: var(--brand);
+      color: #fff;
+    }
+    section + section { margin-top: 48px; }
+    footer {
+      margin-top: 48px;
+      color: var(--neutral-500);
+      font-size: 13px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="logo">P</div>
+      <div class="brand-name">Pricio</div>
+    </header>
+
+    <div class="lang-switch">
+      <a href="#es" class="active" onclick="switchLang('es'); return false;">ES</a>
+      <a href="#en" onclick="switchLang('en'); return false;">EN</a>
+    </div>
+
+    <section id="es-section">
+      <div class="card">
+        <h1>Política de privacidad</h1>
+        <p class="updated">Última actualización: 28 de junio de 2026</p>
+
+        <p>
+          Pricio es una aplicación móvil para seguir la evolución del precio de productos
+          que te interesan. Esta política explica qué datos maneja Pricio y cómo lo hace.
+        </p>
+
+        <h2>Datos que recogemos</h2>
+        <p>
+          <strong>Ninguno.</strong> Pricio no recoge, no transmite ni almacena información
+          tuya en servidores externos. No usamos cuentas de usuario, ni registros, ni cookies.
+        </p>
+
+        <h2>Dónde se guardan tus datos</h2>
+        <p>
+          Toda la información que introduces en Pricio (productos, precios, fechas, URLs,
+          objetivos) se guarda exclusivamente en tu dispositivo, mediante el sistema de
+          almacenamiento local del propio sistema operativo. No hay sincronización en la
+          nube ni backup automático en nuestros servidores.
+        </p>
+
+        <h2>Exportar e importar tus datos</h2>
+        <p>
+          Pricio te permite exportar una copia de tus datos en formato JSON e importarla en
+          otro momento o dispositivo. El fichero generado se guarda donde tú decidas dentro
+          de tu propio sistema (sistema de ficheros local, iCloud Drive, Google Drive, etc.).
+          Pricio no participa en ese proceso más allá de generar el fichero.
+        </p>
+
+        <h2>Servicios de terceros</h2>
+        <p>
+          Pricio no integra ningún servicio de analítica, publicidad, tracking ni red social.
+          No se envían eventos a Google Analytics, Firebase, Crashlytics, Meta, ni similares.
+        </p>
+
+        <h2>Permisos del sistema</h2>
+        <p>
+          Pricio puede pedirte permiso para acceder al selector de ficheros del sistema cuando
+          uses la función "Importar datos". Ese acceso se utiliza únicamente para leer el
+          fichero JSON que tú selecciones — no se accede a ningún otro contenido de tu
+          dispositivo.
+        </p>
+
+        <h2>Niños</h2>
+        <p>
+          Pricio no está dirigida específicamente a menores de 13 años, pero tampoco recoge
+          datos de ningún tipo, por lo que su uso por menores es seguro desde el punto de
+          vista de la privacidad.
+        </p>
+
+        <h2>Cambios en esta política</h2>
+        <p>
+          Si cambiamos esta política en el futuro, actualizaremos esta misma página y la
+          fecha de "última actualización" en la parte superior.
+        </p>
+
+        <h2>Contacto</h2>
+        <p>
+          Para cualquier consulta relacionada con la privacidad de Pricio, puedes escribir a
+          <a href="mailto:e.blasco.blanquer@gmail.com">e.blasco.blanquer@gmail.com</a>.
+        </p>
+      </div>
+    </section>
+
+    <section id="en-section" hidden>
+      <div class="card">
+        <h1>Privacy policy</h1>
+        <p class="updated">Last updated: June 28, 2026</p>
+
+        <p>
+          Pricio is a mobile app to follow the evolution of prices of products you care
+          about. This policy explains what data Pricio handles and how.
+        </p>
+
+        <h2>Data we collect</h2>
+        <p>
+          <strong>None.</strong> Pricio does not collect, transmit, or store any information
+          about you on external servers. There are no user accounts, no sign-ups, no cookies.
+        </p>
+
+        <h2>Where your data lives</h2>
+        <p>
+          Everything you enter into Pricio (products, prices, dates, URLs, targets) is
+          stored exclusively on your device through the operating system's local storage.
+          There is no cloud sync and no automatic backup to our servers.
+        </p>
+
+        <h2>Exporting and importing your data</h2>
+        <p>
+          Pricio lets you export a copy of your data as a JSON file and import it later or
+          on another device. The generated file is saved wherever you choose inside your own
+          system (local filesystem, iCloud Drive, Google Drive, etc.). Pricio does not
+          participate in that process beyond producing the file.
+        </p>
+
+        <h2>Third-party services</h2>
+        <p>
+          Pricio does not integrate any analytics, advertising, tracking, or social media
+          service. No events are sent to Google Analytics, Firebase, Crashlytics, Meta, or
+          similar providers.
+        </p>
+
+        <h2>System permissions</h2>
+        <p>
+          Pricio may request access to the system file picker when you use the "Import data"
+          feature. That access is used only to read the JSON file you choose — no other
+          content on your device is accessed.
+        </p>
+
+        <h2>Children</h2>
+        <p>
+          Pricio is not specifically directed at children under 13, but it also collects no
+          data, so it is safe to use from a privacy standpoint.
+        </p>
+
+        <h2>Changes to this policy</h2>
+        <p>
+          If we change this policy in the future, we will update this same page and the
+          "last updated" date at the top.
+        </p>
+
+        <h2>Contact</h2>
+        <p>
+          For any privacy-related question, you can write to
+          <a href="mailto:e.blasco.blanquer@gmail.com">e.blasco.blanquer@gmail.com</a>.
+        </p>
+      </div>
+    </section>
+
+    <footer>
+      © 2026 Pricio
+    </footer>
+  </main>
+
+  <script>
+    function switchLang(lang) {
+      document.getElementById('es-section').hidden = (lang !== 'es');
+      document.getElementById('en-section').hidden = (lang !== 'en');
+      document.querySelectorAll('.lang-switch a').forEach(a => {
+        a.classList.toggle('active', a.getAttribute('href') === '#' + lang);
+      });
+      document.documentElement.lang = lang;
+    }
+    if (location.hash === '#en') switchLang('en');
+  </script>
+</body>
+</html>
